@@ -18,37 +18,38 @@ body {
 .container {
     height: 100vh;
     display: flex;
-    flex-direction: column;
     flex-flow: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
+.space {
+    margin: auto;
+}
+
 .intro {
-    width: 500px;
-    min-width: 450px;
-    position: relative;
+    width: 400px;
 }
 
 .intro_text {
     font-size: 20px;
     margin: 0;
-    margin-right: 50px;
-    padding-right: 10px;
     position: relative;
-    bottom: 20px;
-    left: 30px;
     text-align: justify;
     font-weight: bold;
+    padding: 10px;
 }
 
 .logo {
     width: 300px;
+    position: relative;
+    top: 40px;
+    right: 20px;
 }
 
 .form_box {
     width: 400px;
-    min-width: 300px;
     background-color: #ffffff;
     padding: 15px;
     box-shadow: 0px 0px 10px var(--cinza);
