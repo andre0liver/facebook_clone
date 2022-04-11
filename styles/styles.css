@@ -1,0 +1,110 @@
+:root {
+    --azul: #1877f2;
+    --cinza: rgb(200,200,200);
+    --verde: rgb(66,183,42);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro {
+    width: 500px;
+    min-width: 450px;
+    position: relative;
+}
+
+.intro_text {
+    font-size: 20px;
+    margin: 0;
+    margin-right: 50px;
+    padding-right: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.logo {
+    width: 300px;
+}
+
+.form_box {
+    width: 400px;
+    min-width: 300px;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0px 0px 10px var(--cinza);
+    border-radius: 7px;
+    text-align: center;
+}
+
+input {
+    padding-left: 15px;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 1px solid var(--cinza);
+}
+
+input:focus {
+    border: 1px solid var(--azul);
+    box-shadow: 0;
+    outline: 0;
+}
+
+.button {
+    background-color: var(--azul);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+}
+
+.forgot {
+    color: var(--azul);
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+.new {
+    background-color: var(--verde);
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px ;
+    border-radius: 7px;
+    border: 1px solid var(--cinza);
+    margin: 20px auto 10px auto;
+    display: block;
+}
+
+.article {
+    width: 400px;
+    text-align: justify;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
